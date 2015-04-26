@@ -1,0 +1,20 @@
+/*On appele donc le CSS commun à toute nos pages pour éviter d'avoir un CSS trop lourd sur chacune de nos pages*/
+@import url("global.css");
+
+th,td{
+  text-align: center;
+  width: 5%;
+}
+
+table{
+  border: solid;
+  border-radius: 10px;
+}
+
+#armes{
+  width: 50%;
+}
+
+table + p{
+  text-align: center;
+}

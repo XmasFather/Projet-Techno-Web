@@ -1,0 +1,15 @@
+/*On appele donc le CSS commun à toute nos pages pour éviter d'avoir un CSS trop lourd sur chacune de nos pages*/
+@import url("global.css");
+
+.vert{
+  color: green;
+  background-color: white;
+  border-radius: 10%;
+}
+
+.rouge{
+  color: red;
+  background-color: white;
+  border-radius: 10%;
+}
+}

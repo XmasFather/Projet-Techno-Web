@@ -1,0 +1,2 @@
+/*On appele donc le CSS commun à toute nos pages pour éviter d'avoir un CSS trop lourd sur chacune de nos pages*/
+@import url("global.css");

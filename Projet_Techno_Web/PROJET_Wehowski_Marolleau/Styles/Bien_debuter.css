@@ -1,0 +1,12 @@
+/*On appele donc le CSS commun à toute nos pages pour éviter d'avoir un CSS trop lourd sur chacune de nos pages*/
+@import url("global.css");
+
+.colonnes > div{
+  display: table-cell;
+  width: 50%;
+  padding: 2%;
+  background-color: rgb(19,7,152);
+  border: solid;
+  border-radius: 20px;
+}
+

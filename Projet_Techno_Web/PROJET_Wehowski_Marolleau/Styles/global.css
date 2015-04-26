@@ -1,0 +1,77 @@
+/*Ceci est le CSS commun à toute nos pages du site, nous nous servons donc de la commande @import pour pouvoir le lié sur tout les autres CSS*/
+
+/*Nous avons donc mis une image en temps que fond pour le site, avec un texte justifié en blanc et une police particulière*/
+/*L'image en fond est bien validée par un des professeurs*/
+body{
+  background-color: black;
+  background-image: url("../Images/index/bg_index.jpg");
+  background-repeat: no-repeat;
+  color: white;
+  text-align: justify;
+  font-family: "Ebrima";
+}
+/*Nous sommes conscient que nous utilisons une des propriété de CSS3, mais nous en avons l'accord*/
+/*Ceci nous permet donc d'insérer une police de caractère non disponible sur le navigateur pour nos titres de niveau h1 afin d'en avoir une plus en accord avec le site*/
+@font-face{
+  font-family :"Shut'Em Down";
+  src : url('../Contenu/ShutEm Down.ttf');
+}
+
+h1{
+  font-family: "Shut'Em Down";
+  text-align: center;
+  font-size: 40px;
+  width: 75%;
+}
+
+h2{
+  font-family: "Shut'Em Down";
+  font-size: 20px;
+}
+
+#logo{
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  width: 20%;
+  border: solid white 1px;
+  border-radius: 10px;
+}
+/*Ici, nous changeont l'aspect des balises <a> pour faire en sorte qu'elle ressorte un peu plus visible et que l'utilisateur se rende compte
+qu'il y a un lien sur lequel cliquer*/
+a{
+  color: wheat;
+  text-decoration:none;
+}
+/*Tout les éléments navigations ci-dessous permettent donc de gérer le menu de navigation entre toutes les pages du site*/
+#navigation{
+  width: 75%;
+}
+#navigation > li{
+  display: inline-block;
+  border: solid ;
+  width: 22.5%;
+  text-align: center;
+  color : wheat;
+  border-radius: 5px;
+}
+
+#navigation >li:before{
+  content: url("../Images/index/puce_liste.png");
+}
+
+/*Ceci permet de faire en sorte que le titre principal de toutes les pages soit en blanc malgré le fait que la balise <a>
+lui soit mise à l'intérieur pour redirigé vers l'accueil en cliquant dessus*/
+h1 >a{
+  color: white;
+}
+
+div[id="principal"]{
+  width: 75%;
+}
+
+.f_navigation{
+  position: absolute;
+  top: 130%;
+  right: 0%;
+}
