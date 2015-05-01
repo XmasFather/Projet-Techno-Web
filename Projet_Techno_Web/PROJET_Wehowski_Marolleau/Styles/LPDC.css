@@ -18,3 +18,7 @@ table{
 table + p{
   text-align: center;
 }
+
+thead > tr > th{
+  font-size: 30px
+}
