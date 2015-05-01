@@ -30,7 +30,7 @@ h2{
 }
 
 #logo{
-  position: absolute;
+  position: fixed;
   top: 1%;
   right: 1%;
   width: 20%;
