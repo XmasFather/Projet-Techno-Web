@@ -28,14 +28,14 @@
    
    <form method="post" action="10.16.21.1/~salayran/traitement.php">
 		<fieldset>
-			<p>
+			<div>
 				<label for="pseudo">Votre nom ou pseudo : </label><br />
 					<input type="text" name="pseudo" id="pseudo"/><br /><br />
 					
 				<label for="mail">Votre adresse mail :</label><br />
 					<input name="mail" id="mail"/><br /><br />
 					
-				<label for="type_aventure"> Quelle genre d'aventure recherchez vous ? </label><br />
+				<p>Quelle genre d'aventure recherchez vous ?</p>
 					<input type="radio" name="objectif" id="decouverte"/><label for="decouverte">Découverte de la map</label><br />
 					<input type="radio" name="objectif" id="donjon"/><label for="donjon">Donjon</label><br />
 					<input type="radio" name="objectif" id="stuff_rare"/><label for="stuff_rare">Récolte de stuff rare</label><br /><br />
@@ -87,7 +87,7 @@
 					<br/><br/>
 			
 					<input type="submit" value="Générer un trajet"/>
-			</p>
+			</div>
 		</fieldset>
    </form>
    
