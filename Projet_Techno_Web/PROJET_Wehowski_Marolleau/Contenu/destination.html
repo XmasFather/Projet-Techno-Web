@@ -29,23 +29,71 @@
    
    <form method="post" action="10.16.21.1/~salayran/traitement.php">
 		<fieldset>
-			<p>
+			<div>
 				<label for="pseudo">Votre nom ou pseudo : </label><br />
-					<input type="text" name="info_user" id="info_user"/><br /><br />
+					<input type="text" name="pseudo" id="pseudo"/><br /><br />
 					
 				<label for="mail">Votre adresse mail :</label><br />
-					<input type="email" name="mail" id="mail"/><br /><br />
+					<input name="mail" id="mail"/><br /><br />
 					
-				<label for="type_aventure"> Quelle genre d'aventure recherchez vous ? </label><br />
+				<p>Quelle genre d'aventure recherchez vous ?</p>
 					<input type="radio" name="objectif" id="decouverte"/><label for="decouverte">Découverte de la map</label><br />
 					<input type="radio" name="objectif" id="donjon"/><label for="donjon">Donjon</label><br />
 					<input type="radio" name="objectif" id="stuff_rare"/><label for="stuff_rare">Récolte de stuff rare</label><br /><br />
 			
-				<label for="spawn">Ou êtes vous apparus sur la carte ? (où avez vous spawn ?)</label><br />
-					<input type="number" name="spawn_player" id="spawn_player" min="0" max="40" step="1"/><br /><br />
+				<label for="spawn">Ou êtes vous apparus sur la carte ? (où avez vous spawn ?)</label>
+					<select name="spawn" id="spawn">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9</option>
+						<option>10</option>
+						<option>11</option>
+						<option>12</option>
+						<option>13</option>
+						<option>14</option>
+						<option>15</option>
+						<option>16</option>
+						<option>17</option>
+						<option>18</option>
+						<option>19</option>
+						<option>20</option>
+						<option>21</option>
+						<option>22</option>
+						<option>23</option>
+						<option>24</option>
+						<option>25</option>
+						<option>26</option>
+						<option>27</option>
+						<option>27</option>
+						<option>28</option>
+						<option>29</option>
+						<option>30</option>
+						<option>31</option>
+						<option>32</option>
+						<option>33</option>
+						<option>34</option>
+						<option>35</option>
+						<option>36</option>
+						<option>37</option>
+						<option>38</option>
+						<option>39</option>
+						<option>40</option>
+					</select>
+					<br/><br/>
 			
+<<<<<<< HEAD
 					<input type="submit" value="Générer un trajet" onclick="chemin()"/>
 			</p>
+=======
+					<input type="submit" value="Générer un trajet"/>
+			</div>
+>>>>>>> origin/master
 		</fieldset>
    </form>
    
