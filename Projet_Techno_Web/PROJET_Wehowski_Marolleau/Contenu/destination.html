@@ -10,7 +10,6 @@
 	  <link rel="stylesheet" media="screen" type="text/css" href="../Styles/destination.css" title="style principal" />
    </head>
    <body>
-   <div>
    <h1><a href="../index.html">CONNAITRE VOTRE DESTINATION</a></h1>
 	<ul id="navigation">
 		<li><a href="../index.html">Accueil</a></li>
@@ -21,10 +20,36 @@
    <div id="principal">
    <hr/>
    
-   <p>trololo</p>
+   <p>Jouer à MineZ c'est bien, mais si vous ne savez pas ou aller, vous perdez votre temps.
+   Nous vous proposons donc, des chemins "pré-déterminés" types pour découvrir les terres du nord ! <br />
+   
+   Pour vous permettre de repérer le chemin proposé plus facilement, n'hésitez pas à utiliser la <a href="http://www.minezmap.com/">MineZ Map !</a>   
+   </p>
+   
+   <form method="post" action="10.16.21.1/~salayran/traitement.php">
+		<fieldset>
+			<p>
+				<label for="pseudo">Votre nom ou pseudo : </label><br />
+					<input type="text" name="info_user" id="info_user"/><br /><br />
+					
+				<label for="mail">Votre adresse mail :</label><br />
+					<input type="email" name="mail" id="mail"/><br /><br />
+					
+				<label for="type_aventure"> Quelle genre d'aventure recherchez vous ? </label><br />
+					<input type="radio" name="objectif" id="decouverte"/><label for="decouverte">Découverte de la map</label><br />
+					<input type="radio" name="objectif" id="donjon"/><label for="donjon">Donjon</label><br />
+					<input type="radio" name="objectif" id="stuff_rare"/><label for="stuff_rare">Récolte de stuff rare</label><br /><br />
+			
+				<label for="spawn">Ou êtes vous apparus sur la carte ? (où avez vous spawn ?)</label><br />
+					<input type="number" name="spawn_player" id="spawn_player" min="0" max="40" step="1"/><br /><br />
+			</p>
+		</fieldset>
+   </form>
+   
+   
    
    </div>
    <p><a href="http://shotbow.net/forum/wiki/MineZ/"><img src="../Images/index/logo_index.png" alt="logo MineZ" id="logo"/></a></p>
-   </div>
+
    </body>
 </html>
