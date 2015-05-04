@@ -7,8 +7,9 @@
       <title>Connaitre votre destination</title>
       <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8"/>
 	  <link rel="icon" type="image/png" href="../Images/index/favicon.png"/>
-	  <link rel="stylesheet" media="screen" type="text/css" href="../Styles/destination.css" title="style principal" />
-   </head>
+	 <link rel="stylesheet" media="screen" type="text/css" href="../Styles/destination.css" title="style principal" />
+	 <script type="application/javascript" src="../Javascript/formulaire.js"></script>
+	 </head>
    <body>
    <h1><a href="../index.html">CONNAITRE VOTRE DESTINATION</a></h1>
 	<ul id="navigation">
@@ -43,7 +44,7 @@
 				<label for="spawn">Ou êtes vous apparus sur la carte ? (où avez vous spawn ?)</label><br />
 					<input type="number" name="spawn_player" id="spawn_player" min="0" max="40" step="1"/><br /><br />
 			
-					<input type="submit" value="Générer un trajet"/>
+					<input type="submit" value="Générer un trajet" onclick="chemin()"/>
 			</p>
 		</fieldset>
    </form>
