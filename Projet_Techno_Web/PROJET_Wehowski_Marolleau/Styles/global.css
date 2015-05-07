@@ -69,3 +69,13 @@ h1 >a{
 div[id="principal"]{
   width: 75%;
 }
+
+#banner{
+  position: relative;
+  text-align: center;
+}
+
+#banner>a>img{
+  border: solid;
+  border-radius: 50%;
+}
