@@ -75,7 +75,7 @@ div[id="principal"]{
   text-align: center;
 }
 
-#banner>a>img{
+#banner>a>img[alt=banner]{
   border: solid;
   border-radius: 50%;
 }
