@@ -1,0 +1,32 @@
+body{
+  background-color: yellow;
+  background-repeat: no-repeat;
+  color: green;
+  text-align: justify;
+  font-family: "Ebrima";
+  font-size: 150%
+}
+
+h1{
+  font-family: "Shut'Em Down";
+  text-align: center;
+  font-size: 50px;
+  width: 75%;
+}
+
+#logo{
+  position: fixed;
+  top: 1%;
+  right: 1%;
+  width: 25%;
+  border: solid green 5px;
+  border-radius: 10px;
+}
+
+#navigation > li{
+  display: inline-block;
+  border: solid ;
+  text-align: center;
+  color : wheat;
+  border-radius: 5px;
+}
