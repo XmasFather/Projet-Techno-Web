@@ -1,1 +1,48 @@
-blblblb
+body{
+  color: black;
+  text-align: justify;
+  font-family: "Ebrima";
+  font-size: 150%
+}
+
+h1{
+  font-family: "Shut'Em Down";
+  text-align: center;
+  font-size: 50px;
+  width: 75%;
+}
+
+#logo{
+  position: fixed;
+  top: 1%;
+  right: 1%;
+  width: 20%;
+  border: solid black 1px;
+  border-radius: 10px;
+}
+
+#navigation > li{
+  display: inline-block;
+  border: solid ;
+  text-align: center;
+  color : rgb(105,105,105);
+  border-radius: 5px;
+}
+
+.fleches{
+  width : 5%;
+}
+
+a{
+  color: lightgrey;
+}
+
+
+h1>a{
+  color: black;
+}
+
+/*On cache ici les fleches pour l'impression car elle ne nous on pas d'utilité*/
+.fleches{
+  width : 0px;
+}

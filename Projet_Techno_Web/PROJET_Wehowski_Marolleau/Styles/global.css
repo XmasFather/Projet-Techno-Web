@@ -47,6 +47,7 @@ a{
 #navigation{
   width: 75%;
 }
+
 #navigation > li{
   display: inline-block;
   border: solid ;

@@ -62,6 +62,7 @@ div[id="principal"]{
 #connexion>input{
   text-align: center;
 }
+
 /*On cache ici les fleches pour l'impression car elle ne nous on pas d'utilité*/
 .fleches{
   width : 0px;
