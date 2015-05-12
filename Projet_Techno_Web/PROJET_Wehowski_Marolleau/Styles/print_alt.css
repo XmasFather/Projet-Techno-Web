@@ -29,6 +29,19 @@ h1{
   border-radius: 5px;
 }
 
+#connexion{
+  position: absolute;
+  top: 10%;
+  right: 1%;
+  border: solid 2px;
+  border-radius: 5%;
+  text-align: center;
+}
+
+#connexion>input{
+  text-align: center;
+}
+
 .fleches{
   width : 5%;
 }
