@@ -34,3 +34,28 @@ h1{
 .fleches{
   width : 5%;
 }
+
+a{
+  color: lightgrey;
+}
+
+a:visited{
+  color: white;
+}
+
+a:hover{
+  color: black;
+}
+
+h1>a{
+  color: black;
+}
+
+#formulaire{
+  background-color: white;
+}
+
+input:focus{
+  color:white;
+  background-color: black;
+}

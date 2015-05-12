@@ -12,3 +12,7 @@ body{
 #formulaire{
 	background-color : black;
 }
+
+input:focus{
+  background-color: rgb(150,150,150);
+}
