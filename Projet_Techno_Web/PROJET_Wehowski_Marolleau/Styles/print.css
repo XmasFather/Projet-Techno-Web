@@ -52,8 +52,8 @@ div[id="principal"]{
 
 #connexion{
   position: absolute;
-  top: 0%;
-  left: 1%;
+  top: 15%;
+  right: 1%;
   border: solid 2px;
   border-radius: 5%;
   text-align: center;
