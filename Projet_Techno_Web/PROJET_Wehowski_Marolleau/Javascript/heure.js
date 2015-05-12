@@ -1,16 +1,16 @@
-function heure{
-	heure = new heure;
-		h = heure.getHours();
+function heure(){
+	d = new Date();
+		h = d.getHours();
         if(h<10)
         {
         h = "0"+h;
         }
-		m = heure.getMinutes();
+		m = d.getMinutes();
         if(m<10)
         {
         m = "0"+m;
         }
-		s = heure.getSeconds();
+		s = d.getSeconds();
         if(s<10)
         {
         s = "0"+s;
