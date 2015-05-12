@@ -10,3 +10,10 @@
   border-radius: 20px;
 }
 
+body{
+  background-color : rgb(18,29,135);
+}
+
+.fleches{
+  width : 5%;
+}

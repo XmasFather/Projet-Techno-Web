@@ -25,3 +25,7 @@ a:hover{
 #connexion>input{
   text-align: center;
 }
+
+.fleches{
+  width : 5%;
+}

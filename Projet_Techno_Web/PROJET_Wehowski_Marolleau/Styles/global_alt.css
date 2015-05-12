@@ -1,7 +1,7 @@
 body{
-  background-color: yellow;
+  background-color: rgb(169,169,169);
   background-repeat: no-repeat;
-  color: green;
+  color: black;
   text-align: justify;
   font-family: "Ebrima";
   font-size: 150%
@@ -18,8 +18,8 @@ h1{
   position: fixed;
   top: 1%;
   right: 1%;
-  width: 25%;
-  border: solid green 5px;
+  width: 20%;
+  border: solid black 1px;
   border-radius: 10px;
 }
 
@@ -27,6 +27,10 @@ h1{
   display: inline-block;
   border: solid ;
   text-align: center;
-  color : wheat;
+  color : rgb(105,105,105);
   border-radius: 5px;
+}
+
+.fleches{
+  width : 5%;
 }

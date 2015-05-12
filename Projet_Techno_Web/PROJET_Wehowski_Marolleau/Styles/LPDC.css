@@ -22,3 +22,11 @@ table + p{
 thead > tr > th{
   font-size: 30px
 }
+
+body{
+  background-color : rgb(18,29,135);
+}
+
+.fleches{
+  width : 5%;
+}
