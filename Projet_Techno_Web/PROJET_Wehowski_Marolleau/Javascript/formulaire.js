@@ -37,8 +37,5 @@
   
   alert('Votre chemin proposé est :'+txt);
 }
-	 
-	 
-	 
 
   
