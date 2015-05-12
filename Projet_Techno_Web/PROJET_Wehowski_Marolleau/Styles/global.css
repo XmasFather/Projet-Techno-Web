@@ -3,7 +3,7 @@
 /*Nous avons donc mis une image en temps que fond pour le site, avec un texte justifié en blanc et une police particulière*/
 /*L'image en fond est bien validée par un des professeurs*/
 body{
-  background-color: black;
+  background-color: rgb(19,7,152);
   background-image: url("../Images/index/bg_index.jpg");
   background-repeat: no-repeat;
   color: white;

@@ -1,0 +1,115 @@
+body{
+  text-align: justify;
+  font-family: "Ebrima";
+}
+
+h1{
+  font-family: "Shut'Em Down";
+  text-align: center;
+  font-size: 40px;
+  width: 75%;
+}
+
+h2{
+  font-family: "Shut'Em Down";
+  font-size: 20px;
+}
+
+#logo{
+  position: fixed;
+  top: 1%;
+  right: 1%;
+  width: 20%;
+  border: solid white 1px;
+  border-radius: 10px;
+}
+
+#navigation{
+  width: 75%;
+}
+#navigation > li{
+  display: inline-block;
+  border: solid ;
+  width: 22.5%;
+  text-align: center;
+  color : wheat;
+  border-radius: 5px;
+}
+
+div[id="principal"]{
+  width: 75%;
+}
+
+#banner{
+  position: relative;
+  text-align: center;
+}
+
+#banner>a>img[alt=banner]{
+  border: solid;
+  border-radius: 50%;
+}
+
+#connexion{
+  position: absolute;
+  top: 0%;
+  left: 1%;
+  border: solid 2px;
+  border-radius: 5%;
+  text-align: center;
+}
+
+#connexion>input{
+  text-align: center;
+}
+/*On cache ici les fleches pour l'impression car elle ne nous on pas d'utilité*/
+.fleches{
+  width : 0px;
+}
+
+a{
+  color: black;
+  text-decoration:none;
+}
+
+h1 >a{
+  color: black;
+}
+
+.vert{
+  color: green;
+}
+
+.rouge{
+  color: red;
+}
+
+th,td{
+  text-align: center;
+  width: 5%;
+}
+
+table{
+  border: solid;
+  border-radius: 10px;
+}
+
+#armes{
+  width: 50%;
+}
+
+table + p{
+  text-align: center;
+}
+
+thead > tr > th{
+  font-size: 30px
+}
+
+.colonnes > div{
+  display: table-cell;
+  width: 50%;
+  padding: 2%;
+  border: solid;
+  border-radius: 20px;
+}
